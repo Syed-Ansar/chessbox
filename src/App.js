@@ -31,7 +31,7 @@ const App = () => {
         <h2> 
           ChessBoard
         </h2>
-        <input type="number" placeholder='Enter the Dimension' onChange={(e)=>setInput(e.target.value)} />
+        <input type="number" placeholder='Enter the Number' onChange={(e)=>setInput(e.target.value)} />
       </div>
 
       <section className='chessBox' style={{width:100*input}}>
